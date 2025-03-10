@@ -1,0 +1,128 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "name": "Grocery Inventory and Sales Dataset",
+  "creator": {
+    "@type": "Person",
+    "name": "Salahuddin Ahmed",
+    "affiliation": "Kaggle",
+    "email": "none",
+    "id": "none"
+  },
+  "description": "This dataset provides detailed information on various grocery items, including product details, supplier information, stock levels, reorder data, pricing, and sales performance. The data covers 990 products across various categories such as Grains & Pulses, Beverages, Fruits & Vegetables, and more. The dataset is useful for inventory management, sales analysis, and supply chain optimization.",
+  "datePublished": "2024-01-01",
+  "keywords": ["Business", "Inventory Management", "Sales Analysis"],
+  "funder": "Kaggle",
+  "temporalCoverage": "2024-01-01/2025-03-09",
+  "license": "CC BY 4.0",
+  "spatialCoverage": {
+    "@type": "Place",
+    "name": "none"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "Product_ID",
+      "description": "Unique identifier for each product",
+      "unitText": "numerical"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Product_Name",
+      "description": "Name of the product",
+      "unitText": "text"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Category",
+      "description": "The product category (e.g., Grains & Pulses, Beverages, Fruits & Vegetables)",
+      "unitText": "text"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Supplier_ID",
+      "description": "Unique identifier for the product supplier",
+      "unitText": "numerical"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Supplier_Name",
+      "description": "Name of the supplier",
+      "unitText": "text"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Stock_Quantity",
+      "description": "The current stock level of the product in the warehouse",
+      "unitText": "numerical"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Reorder_Level",
+      "description": "The stock level at which new stock should be ordered",
+      "unitText": "numerical"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Reorder_Quantity",
+      "description": "The quantity of product to order when the stock reaches the reorder level",
+      "unitText": "numerical"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Unit_Price",
+      "description": "Price per unit of the product",
+      "unitText": "numerical"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Date_Received",
+      "description": "The date the product was received into the warehouse",
+      "unitText": "date"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Last_Order_Date",
+      "description": "The last date the product was ordered",
+      "unitText": "date"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Expiration_Date",
+      "description": "The expiration date of the product, if applicable",
+      "unitText": "date"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Warehouse_Location",
+      "description": "The warehouse address where the product is stored",
+      "unitText": "text"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Sales_Volume",
+      "description": "The total number of units sold",
+      "unitText": "numerical"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Inventory_Turnover_Rate",
+      "description": "The rate at which the product sells and is replenished",
+      "unitText": "numerical"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Status",
+      "description": "Current status of the product (e.g., Active, Discontinued, Backordered)",
+      "unitText": "text"
+    }
+  ],
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "Grocery Inventory and Sales Dataset",
+      "contentUrl": "https://www.kaggle.com/datasets/salahuddinahmedshuvo/grocery-inventory-and-sales-dataset/data",
+      "encodingFormat": "CSV"
+    }
+  ]
+}
